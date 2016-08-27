@@ -15,17 +15,23 @@ Bender relies on several outside packages and programs to function.
 
 Clone the project:
 
+```
   $ git clone git@github.com:skitoo/bender.git
   $ cd bender
+```
 
 Install ansible and molecule:
 
+```
   $ pip install ansible
   $ pip install molecule
+```
 
 Run molecule
 
+```
   $ molecule test
+```
 
 ## LICENSE
 
