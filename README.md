@@ -2,6 +2,8 @@
 
 Ansible playbook to manage my Debian server.
 
+[![Build Status](https://travis-ci.org/skitoo/bender.svg?branch=master)](https://travis-ci.org/skitoo/bender)
+
 ## Dependencies
 
 Bender relies on several outside packages and programs to function.
