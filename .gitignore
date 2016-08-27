@@ -1,4 +1,5 @@
 .cache
 .molecule
+.ropeproject
 *.py[cod]
 __pycache__/
