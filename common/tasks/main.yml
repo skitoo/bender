@@ -1,0 +1,15 @@
+---
+- name: Install apt-transport-https
+  apt: name=apt-transport-https state=present
+
+- name: Install tree
+  apt: name=tree state=present
+
+- name: Install pwgen
+  apt: name=pwgen state=present
+
+- name: Install git
+  apt: name=git state=present
+
+- name: Install htop
+  apt: name=htop state=present
