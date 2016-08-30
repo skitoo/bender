@@ -8,6 +8,11 @@ def test_apt_transport_https_is_installed(Package):
     assert pkg.is_installed
 
 
+def test_ca_certificates_is_installed(Package):
+    pkg = Package('ca-certificates')
+    assert pkg.is_installed
+
+
 def test_tree_is_installed(Package):
     pkg = Package('tree')
     assert pkg.is_installed
