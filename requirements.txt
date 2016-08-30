@@ -8,7 +8,7 @@ cffi==1.7.0
 cliff==2.2.0
 cmd2==0.6.8
 colorama==0.3.7
-cryptography==1.4
+cryptography==1.5
 debtcollector==1.8.0
 decorator==4.0.10
 docker-py==1.9.0
@@ -59,11 +59,11 @@ python-designateclient==2.2.0
 python-glanceclient==2.5.0
 python-heatclient==1.4.0
 python-ironicclient==1.6.0
-python-keystoneclient==3.4.0
+python-keystoneclient==3.5.0
 python-magnumclient==2.2.0
 python-neutronclient==5.1.0
 python-novaclient==5.1.0
-python-openstackclient==3.0.1
+python-openstackclient==3.1.0
 python-swiftclient==3.0.0
 python-troveclient==2.4.0
 python-vagrant==0.5.14
