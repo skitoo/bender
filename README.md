@@ -3,6 +3,7 @@
 Ansible playbook to manage my Debian server.
 
 [![Build Status](https://travis-ci.org/skitoo/bender.svg?branch=master)](https://travis-ci.org/skitoo/bender)
+[![Licence GPL](http://img.shields.io/badge/license-GPL-yellow.svg)](http://www.gnu.org/licenses/quick-guide-gplv3.fr.html)
 
 ## Dependencies
 
