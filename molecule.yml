@@ -1,14 +1,4 @@
 ---
-molecule:
-  test:
-    # sequence of commands to run when performing `molecule test`
-    sequence:
-      - syntax
-      - create
-      - converge
-      - idempotence
-      - verify
-
 ansible:
   playbook: playbook.yml
 
