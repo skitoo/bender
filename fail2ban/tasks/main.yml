@@ -4,3 +4,23 @@
 
 - name: Enable and start fail2ban service
   service: name=fail2ban state=started enabled=yes
+
+- name: Configure fail2ban jails
+  copy: src=jail.local dest=/etc/fail2ban/jail.local
+  notify: restart fail2ban
+
+- name: Configure fail2ban nginx-badbots filter
+  copy: src=filters/nginx-badbots.conf dest=/etc/fail2ban/filter.d/nginx-badbots.conf
+  notify: restart fail2ban
+
+- name: Configure fail2ban nginx-nohome filter
+  copy: src=filters/nginx-nohome.conf dest=/etc/fail2ban/filter.d/nginx-nohome.conf
+  notify: restart fail2ban
+
+- name: Configure fail2ban nginx-noproxy filter
+  copy: src=filters/nginx-noproxy.conf dest=/etc/fail2ban/filter.d/nginx-noproxy.conf
+  notify: restart fail2ban
+
+- name: Configure fail2ban nginx-noscript filter
+  copy: src=filters/nginx-noscript.conf dest=/etc/fail2ban/filter.d/nginx-noscript.conf
+  notify: restart fail2ban
