@@ -4,6 +4,9 @@ ansible:
 
 docker:
   containers:
-  - name: bender
-    image: debian
-    image_version: latest
+    - name: bender
+      image: debian
+      image_version: latest
+      image: ssiegel/base-debian-systemd
+      privileged: True
+      command: /sbin/init
