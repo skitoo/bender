@@ -31,3 +31,13 @@ def test_git_is_installed(Package):
 def test_htop_is_installed(Package):
     pkg = Package('htop')
     assert pkg.is_installed
+
+
+def test_python_is_installed(Package):
+    pkg = Package('python')
+    assert pkg.is_installed
+
+
+def test_python_pip_is_installed(Package):
+    pkg = Package('python-pip')
+    assert pkg.is_installed
