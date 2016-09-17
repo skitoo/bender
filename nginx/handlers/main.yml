@@ -1,0 +1,6 @@
+---
+# Handlers for NginX notifications
+
+
+- name: restart nginx
+  service: name=nginx state=restarted

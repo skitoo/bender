@@ -4,3 +4,4 @@
     - common
     - docker
     - fail2ban
+    - nginx
