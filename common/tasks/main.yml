@@ -16,3 +16,9 @@
 
 - name: Install htop
   apt: name=htop state=present
+
+- name: Install python
+  apt: name=python state=present
+
+- name: Install python-pip
+  apt: name=python-pip state=present

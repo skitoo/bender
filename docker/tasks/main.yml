@@ -8,5 +8,8 @@
 - name: Install docker
   apt: name=docker-engine state=present update_cache=yes
 
+- name: Install python-docker
+  pip: name=docker-py version=1.7.0
+
 - name: Enable and start docker service
   service: name=docker state=started enabled=yes
